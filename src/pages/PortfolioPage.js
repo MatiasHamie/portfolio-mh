@@ -21,7 +21,7 @@ const PortfolioPage = () => {
 
   return (
     <div className="portfolio-container">
-      <div className="portfolio_description animate__animated animate__bounce">
+      <div className="portfolio_description animate__animated animate__slideInUp">
         <h1 className="portfolio_title">
           Portafolio
         </h1>

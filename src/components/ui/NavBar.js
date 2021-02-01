@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className="nav-bar">
-      <ul className="nav-bar-link_container">
+      <ul className="nav-bar-link_container  animate__animated animate__fadeInUp">
         <div className="styled-links">
           <div className="nav-bar_link_line"></div>
           <NavLink to="/portfolio" className="nav-bar_link">

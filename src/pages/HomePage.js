@@ -10,7 +10,7 @@ const HomePage = () => {
         <div className="home_me-img" data-depth="0">
           <img className="me" src={meImg} alt="me" />
         </div>
-        <div className="home_description" data-depth="0">
+        <div className="home_description animate__animated animate__fadeIn" data-depth="0">
           <h1 className="home_title">
             <strong>M</strong>ATIAS <strong>H</strong>AMIE
           </h1>
