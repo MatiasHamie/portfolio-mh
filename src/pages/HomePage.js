@@ -12,7 +12,7 @@ const HomePage = () => {
         </div>
         <div className="home_description" data-depth="0">
           <h1 className="home_title">
-            <b>M</b>ATIAS <b>H</b>AMIE
+            <strong>M</strong>ATIAS <strong>H</strong>AMIE
           </h1>
           <h3 className="home_subtitle">PROGRAMADOR</h3>
         </div>

@@ -14,14 +14,14 @@ const NavBar = () => {
       <ul className="nav-bar-link_container">
         <div className="styled-links">
           <div className="nav-bar_link_line"></div>
-          <NavLink to="/about" className="nav-bar_link">
-            <b>S</b>obre Mi
+          <NavLink to="/portfolio" className="nav-bar_link">
+            <b>P</b>ortafolio
           </NavLink>
         </div>
         <div className="styled-links">
           <div className="nav-bar_link_line"></div>
-          <NavLink to="/portfolio" className="nav-bar_link">
-            <b>P</b>ortafolio
+          <NavLink to="/about" className="nav-bar_link">
+            <b>S</b>obre Mi
           </NavLink>
         </div>
         <div className="styled-links">

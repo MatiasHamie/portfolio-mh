@@ -23,7 +23,7 @@ const PortfolioPage = () => {
     <div className="portfolio-container">
       <div className="portfolio_description animate__animated animate__bounce">
         <h1 className="portfolio_title">
-          <b className="portfolio_title-initial">P</b>ortafolio
+          Portafolio
         </h1>
         <h3 className="portfolio_subtitle">
           Trabajos realizados por mi
