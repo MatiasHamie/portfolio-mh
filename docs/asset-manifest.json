@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d70fdc5.chunk.css",
+    "main.js": "/static/js/main.c55a746e.chunk.js",
+    "main.js.map": "/static/js/main.c55a746e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b33013bb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b33013bb.js.map",
+    "static/js/2.1739b00c.chunk.js": "/static/js/2.1739b00c.chunk.js",
+    "static/js/2.1739b00c.chunk.js.map": "/static/js/2.1739b00c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3d70fdc5.chunk.css.map": "/static/css/main.3d70fdc5.chunk.css.map",
+    "static/js/2.1739b00c.chunk.js.LICENSE.txt": "/static/js/2.1739b00c.chunk.js.LICENSE.txt",
+    "static/media/LogoMH.4efb6e1d.svg": "/static/media/LogoMH.4efb6e1d.svg",
+    "static/media/beatmaker.1c9a1ab0.png": "/static/media/beatmaker.1c9a1ab0.png",
+    "static/media/capa_1.8b030b7f.png": "/static/media/capa_1.8b030b7f.png",
+    "static/media/capa_2.cc3bfd65.png": "/static/media/capa_2.cc3bfd65.png",
+    "static/media/capa_3.8b030b7f.png": "/static/media/capa_3.8b030b7f.png",
+    "static/media/capture.c4124558.png": "/static/media/capture.c4124558.png",
+    "static/media/me-home.e24fb752.png": "/static/media/me-home.e24fb752.png",
+    "static/media/styles.scss": "/static/media/portfolio_bg.cc72d371.png",
+    "static/media/waves.803c9db4.png": "/static/media/waves.803c9db4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b33013bb.js",
+    "static/js/2.1739b00c.chunk.js",
+    "static/css/main.3d70fdc5.chunk.css",
+    "static/js/main.c55a746e.chunk.js"
+  ]
+}
