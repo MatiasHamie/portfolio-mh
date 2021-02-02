@@ -20,9 +20,9 @@ const SceneParallax = () => {
   }, []);
   return (
     <div id="scene" ref={sceneRef}>
-      <img className="capa1" src={capa1} alt="capa1" data-depth=".8" />
+      <img className="capa1" src={capa1} alt="capa1" data-depth=".3" />
       <img className="capa2" src={capa2} alt="capa2" data-depth=".2" />
-      <img className="capa3" src={capa3} alt="capa3" data-depth=".4" />
+      {/* <img className="capa3" src={capa3} alt="capa3" data-depth=".4" /> */}
     </div>
   );
 };
