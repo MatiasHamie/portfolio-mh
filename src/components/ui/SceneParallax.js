@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import capa1 from "../../assets/img/capa_1.png";
 import capa2 from "../../assets/img/capa_2.png";
-import capa3 from "../../assets/img/capa_3.png";
+// import capa3 from "../../assets/img/capa_3.png";
 
 import Parallax from "parallax-js";
 
