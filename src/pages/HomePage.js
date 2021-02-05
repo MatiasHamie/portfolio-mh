@@ -11,8 +11,9 @@ const HomePage = () => {
           position: "relative",
           pointerEvents: "none",
         }}
-        className="row vh-90 d-flex flex-wrap flex-md-row-reverse 
+        className="row d-flex flex-wrap flex-md-row-reverse 
         flex-sm-column justify-content-sm-center align-items-center 
+        vh-100
         "
       >
         <div

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import logo from "../../assets/img/LogoMH.svg";
 
@@ -15,10 +15,16 @@ const NavBar = () => {
     textShadow: "1 1 .8rem yellow",
   };
 
+  const [toggle, setToggle] = useState(false);
+
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <nav
       style={{ position: "relative", zIndex: 99 }}
-      className="navbar navbar-expand-lg navbar-dark"
+      className="navbar navbar-expand-lg navbar-dark vh-10"
     >
       <div className="container-fluid">
         <img
@@ -34,8 +40,13 @@ const NavBar = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          onClick={handleToggle}
         >
-          <i className="hamburger fas fa-bars"></i>
+          {!toggle ? (
+            <i className="hamburger fas fa-bars"></i>
+          ) : (
+            <i className="hamburger fas fa-times"></i>
+          )}
         </button>
         <div
           className="collapse navbar-collapse"
