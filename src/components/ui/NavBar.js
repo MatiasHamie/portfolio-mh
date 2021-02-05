@@ -16,7 +16,10 @@ const NavBar = () => {
   };
 
   return (
-    <nav style={{position: "relative", zIndex:99}} className="navbar navbar-expand-md navbar-dark">
+    <nav
+      style={{ position: "relative", zIndex: 99 }}
+      className="navbar navbar-expand-lg navbar-dark"
+    >
       <div className="container-fluid">
         <img
           src={logo}
@@ -31,20 +34,20 @@ const NavBar = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <i className="hamburger fas fa-bars"></i>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarNav"
+          data-target=".navbar-collapse"
+        >
           <ul className="navbar-nav ms-auto">
             <li className="nav-item styled-links  mx-md-5">
               <div className="nav-bar_link_line w-50 mx-auto"></div>
               <NavLink
                 className="nav-link text-center"
                 activeStyle={styleLinkActive}
-                aria-current="page"
                 to="/portfolio"
               >
                 <b>P</b>ortafolio
@@ -56,11 +59,17 @@ const NavBar = () => {
                 className="nav-link text-center"
                 to="/about"
                 activeStyle={styleLinkActive}
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
               >
                 <b>S</b>obre Mi
               </NavLink>
             </li>
-            <li className="nav-item styled-links  mx-md-5">
+            <li
+              className="nav-item styled-links  mx-md-5"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
               <div className="nav-bar_link_line w-50 mx-auto"></div>
               <NavLink
                 className="nav-link text-center"
