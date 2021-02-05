@@ -4,7 +4,7 @@ import ParticlesUI from "../components/ParticlesUI";
 
 const HomePage = () => {
   return (
-    <div style={{ position: "relative", overflow:'hidden' }}>
+    <div style={{ position: "relative", overflow: "hidden" }}>
       <ParticlesUI />
       <div
         style={{

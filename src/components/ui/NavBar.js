@@ -43,7 +43,7 @@ const NavBar = () => {
           data-target=".navbar-collapse"
         >
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item styled-links  mx-md-5">
+            <li className="nav-item styled-links mx-md-5">
               <div className="nav-bar_link_line w-50 mx-auto"></div>
               <NavLink
                 className="nav-link text-center"
@@ -59,17 +59,11 @@ const NavBar = () => {
                 className="nav-link text-center"
                 to="/about"
                 activeStyle={styleLinkActive}
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
               >
                 <b>S</b>obre Mi
               </NavLink>
             </li>
-            <li
-              className="nav-item styled-links  mx-md-5"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-            >
+            <li className="nav-item styled-links  mx-md-5">
               <div className="nav-bar_link_line w-50 mx-auto"></div>
               <NavLink
                 className="nav-link text-center"
