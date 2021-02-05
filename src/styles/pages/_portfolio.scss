@@ -1,112 +1,188 @@
 .portfolio-container {
   background-image: url("../../assets/img/portfolio_bg.png");
   background-size: cover;
-  background-color: black;
+  background-color: transparent;
   color: white;
   height: 90vh;
   width: 100vw;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  z-index: 99;
+  // overflow-y: auto;
 
-  .portfolio_description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    flex: 1 1 40rem;
+  .portfolio_title {
+    font-size: 4.6rem;
+    font-weight: lighter;
+    letter-spacing: 1.2rem;
+    // align-self: center;
+  }
 
-    .portfolio_title {
-      font-size: 4.6rem;
-      font-weight: lighter;
-      letter-spacing: 1.2rem;
-      align-self: center;
-    }
+  .portfolio_title::first-letter {
+    color: $amarillo;
+    font-weight: bolder;
+    text-shadow: 0 0 0.6rem $amarillo-shadow;
+  }
 
-    .portfolio_title::first-letter {
-      color: $amarillo;
-      font-weight: bolder;
-      text-shadow: 0 0 0.6rem $amarillo-shadow;
-    }
-
-    .portfolio_subtitle {
-      font-size: 1.7rem;
-      font-weight: 300;
-      color: $amarillo;
-      letter-spacing: 0.3rem;
-      margin: 2rem 0;
-      align-self: center;
-    }
-
-    .button-container {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-
-      button {
-        background: none;
-        text-decoration: none;
-        border: none;
-        outline: none;
-        font-size: 3rem;
-        transition: all 0.6s ease;
-        &:hover {
-          cursor: pointer;
-          transform: scale(1.2);
-        }
-
-        i {
-          background-color: none;
-          padding: 0;
-          color: white;
-          margin: 1rem 1.5rem;
-          border: none;
-
-          &:hover {
-            border-radius: 50%;
-            box-shadow: 0 0 0.6rem $amarillo-shadow;
-          }
-        }
-      }
-    }
+  .portfolio_subtitle {
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: $amarillo;
+    letter-spacing: 0.3rem;
+    margin: 2rem 0;
+    align-self: center;
   }
 
   .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    flex: 3 1 40rem;
     .card {
       height: auto;
-      max-width: 100%;
+      // max-width: 100%;
+      background-color: transparent;
 
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
+      .button-container {
+        background-color: transparent;
+        button {
+          background: none;
+          text-decoration: none;
+          border: none;
+          outline: none;
+          font-size: 3rem;
+          transition: all 0.6s ease;
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+          }
 
-      img {
-        box-shadow: 0 0 1.8rem whitesmoke;
-        height: auto;
-        max-width: 50%;
-        margin: 5rem;
-        border-radius: 3%;
+          i {
+            background-color: none;
+            padding: 0;
+            color: white;
+            margin: 1rem 1.5rem;
+            border: none;
+
+            &:hover {
+              border-radius: 50%;
+              box-shadow: 0 0 0.6rem $amarillo-shadow;
+            }
+          }
+        }
+
+        img {
+          box-shadow: 0 0 1.8rem whitesmoke;
+          height: auto;
+          max-width: 50%;
+          margin: 5rem;
+          border-radius: 3%;
+          transition: all .5s ease;
+        }
       }
 
       .card-body {
         margin-left: 3rem;
         .card-title {
           font-size: 3rem;
+          text-shadow: 0 0 0.3rem whitesmoke;
         }
         .card-description {
-          font-size: 1.5rem;
+          font-size: 1.8rem;
           font-weight: lighter;
+          text-shadow: 0 0 0.2rem whitesmoke;
         }
       }
     }
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-img-expanded {
+    transform: scale(2);
+  }
+
+  .portfolio-container {
+    height: 90vh !important;
+
+    .portfolio-description {
+      margin-top: 9rem;
+
+      .portfolio_title {
+        font-size: 3rem !important;
+        letter-spacing: 0.3rem;
+      }
+
+      .portfolio_subtitle {
+        font-size: 1.6rem !important;
+        letter-spacing: 0.2rem;
+        line-height: 3rem;
+      }
+    }
+  }
+
+  .card-container {
+    height: 90% !important;
+    // padding-top: 3rem;
+    margin: auto !important;
+  }
+  .card-img {
+    margin: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .card-body {
+    width: 100% !important;
+
+    .card-title {
+      font-size: 2rem !important;
+    }
+    .card-description {
+      font-size: 1.5rem !important;
+    }
+  }
+  .button-container {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .portfolio_title {
+    font-size: 14rem !important;
+  }
+
+  .portfolio_subtitle {
+    font-size: 8rem !important;
+  }
+
+  .card-body {
+    .card-title {
+      font-size: 10rem !important;
+    }
+    .card-description {
+      font-size: 7rem !important;
+    }
+  }
+
+  button {
+    font-size: 12rem !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .portfolio_title {
+    font-size: 8rem !important;
+  }
+
+  .portfolio_subtitle {
+    font-size: 4rem !important;
+  }
+
+  .card-body {
+    .card-title {
+      font-size: 6rem !important;
+    }
+    .card-description {
+      font-size: 4rem !important;
+    }
+  }
+
+  button {
+    font-size: 6rem !important;
+  }
+
+  img {
+    width: 45% !important;
   }
 }

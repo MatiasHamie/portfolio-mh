@@ -12,6 +12,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.animate__animated{
+.animate__animated {
   --animate-duration: 1.5s;
+}
+
+.container-fluid {
+  background-color: black;
 }

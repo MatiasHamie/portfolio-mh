@@ -5,9 +5,11 @@ import "./styles/styles.scss";
 
 const PortfolioApp = () => {
   return (
-    <div>
-      <AppRouter />
-    </div>
+    <>
+      <div className="container-fluid vh-100 vw-100">
+        <AppRouter />
+      </div>
+    </>
   );
 };
 

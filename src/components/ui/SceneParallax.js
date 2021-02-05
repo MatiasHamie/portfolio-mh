@@ -19,9 +19,11 @@ const SceneParallax = () => {
     return () => parallaxInstance.disable();
   }, []);
   return (
-    <div id="scene" ref={sceneRef}>
-      <img className="capa1" src={capa1} alt="capa1" data-depth=".2" />
-      <img className="capa2" src={capa2} alt="capa2" data-depth=".7" />
+    <div id="scene" ref={sceneRef} className="row">
+      <div className="col-6">
+        <img className="capa1" src={capa1} alt="capa1" data-depth=".2" />
+        <img className="capa2" src={capa2} alt="capa2" data-depth=".3" />
+      </div>
       {/* <img className="capa3" src={capa3} alt="capa2" data-depth=".9" /> */}
     </div>
   );
