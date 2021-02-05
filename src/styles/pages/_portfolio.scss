@@ -88,10 +88,8 @@
     }
   }
 }
-@media screen and (max-width: 400px) {
-  .card-img-expanded {
-    transform: scale(2);
-  }
+
+@media screen and (max-width: 500px) {
 
   .portfolio-container {
     height: 90vh !important;
@@ -115,12 +113,15 @@
   .card-container {
     height: 90% !important;
     // padding-top: 3rem;
-    margin: auto !important;
+    margin: 5rem auto !important;
   }
   .card-img {
     margin: 0 !important;
     height: 100% !important;
     width: 100% !important;
+  }
+  .card-img-expanded {
+    transform: scale(2.5)
   }
 
   .card-body {

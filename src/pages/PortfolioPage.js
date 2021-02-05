@@ -19,14 +19,15 @@ const PortfolioPage = () => {
     <div
       className="row
        portfolio-container
-        d-flex flex-wrap flex-row justify-content-center align-items-center"
+        d-flex flex-wrap flex-row justify-content-center align-items-center 
+        overflow-hidden"
     >
       <div className="portfolio-description col text-center">
         <h1 className="portfolio_title ">Portafolio</h1>
         <h3 className="portfolio_subtitle">Trabajos realizados por mi</h3>
       </div>
 
-      <div className="col col-sm-10 animate__animated animate__slideInUp ">
+      <div className="col-md-8 col-10 animate__animated animate__slideInUp ">
         <Card
           {...projects.filter((p) => p.id === counter)[0]}
           handleNextProject={handleNextProject}
