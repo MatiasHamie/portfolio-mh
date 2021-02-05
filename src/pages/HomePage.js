@@ -11,7 +11,7 @@ const HomePage = () => {
           position: "relative",
           pointerEvents: "none",
         }}
-        className="row vh-100 d-flex flex-wrap flex-md-row-reverse 
+        className="row vh-90 d-flex flex-wrap flex-md-row-reverse 
         flex-sm-column justify-content-sm-center align-items-center 
         "
       >
@@ -19,11 +19,11 @@ const HomePage = () => {
           className=" col col-lg-5 col-md-5 home_description animate__animated
           animate__fadeIn "
         >
-          <h1 className="home_title text-center ">
+          <h1 className="home_title text-center pt-5">
             <span className="inicial">M</span>ATIAS{" "}
             <span className="inicial">H</span>AMIE
           </h1>
-          <h3 className="home_subtitle text-center pt-5">
+          <h3 className="home_subtitle text-center py-5">
             FRONT END DEVELOPER
           </h3>
         </div>
