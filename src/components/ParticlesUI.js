@@ -6,7 +6,7 @@ const ParticlesUI = () => {
     <Particles
       style={{
         position: "absolute",
-        opacity: ".5",
+        opacity: ".6",
         backgroundColor: "transparent",
       }}
       params={{

@@ -4,13 +4,12 @@ import ParticlesUI from "../components/ParticlesUI";
 
 const HomePage = () => {
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", overflow:'hidden' }}>
       <ParticlesUI />
       <div
         style={{
           position: "relative",
           pointerEvents: "none",
-          overflow: "hidden",
         }}
         className="row vh-100 d-flex flex-wrap flex-md-row-reverse 
         flex-sm-column justify-content-sm-center align-items-center 

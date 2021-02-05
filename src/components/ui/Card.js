@@ -36,22 +36,6 @@ const Card = ({
           <h3 className="card-description">{desc}</h3>
         </div>
       </div>
-
-      {/* {toggle && (
-        <dialog
-          className="dialog"
-          style={{ position: "absolute", top: 0 }}
-          open
-          onClick={handleToggle}
-        >
-          <img
-            className="image"
-            src={image}
-            onClick={handleToggle}
-            alt={desc}
-          />
-        </dialog>
-      )} */}
     </div>
   );
 };
