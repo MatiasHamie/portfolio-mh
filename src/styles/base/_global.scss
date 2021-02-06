@@ -10,12 +10,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  @media not all and (hover: hover) {
-    height: var(--app-height);
-  }
+  // overflow: hidden;
+  // width: 100vw;
+  // height: 100vh;
 }
 
 .animate__animated {
@@ -24,8 +21,7 @@ body {
 
 .container-fluid {
   background-color: black;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-:root {
-  --app-height: 100%;
-}
