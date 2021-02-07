@@ -1,0 +1,62 @@
+.aboutme-container {
+  background: url("../../assets/img/aboutme-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 90vh;
+  width: 100vw;
+  color: white;
+
+  img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    opacity: 0.7;
+    box-shadow: 0 0 2rem whitesmoke;
+  }
+
+  .about-description {
+    .about_title {
+      font-size: 4.6rem;
+      font-weight: 200;
+      letter-spacing: 1.2rem;
+      text-shadow: 0 0 0.5rem whitesmoke !important;
+      .inicial {
+        font-weight: bolder;
+        color: $amarillo;
+        text-shadow: 0 0 0.5rem $amarillo-shadow;
+      }
+    }
+
+    .line {
+      height: 0.2rem;
+      width: 52%;
+      background-color: $amarillo;
+      box-shadow: 0 0 2rem $amarillo-shadow;
+      border-radius: 50%;
+    }
+
+    .subtitle {
+      letter-spacing: 0.3rem;
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 3rem;
+    }
+
+    .redes h2 {
+      font-size: 2.5rem;
+      a {
+        color: white;
+      }
+
+      transition: all 0.5s ease;
+
+      &:hover {
+        text-shadow: 0 0 0.5rem $amarillo-shadow;
+        i {
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}

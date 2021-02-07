@@ -24,7 +24,7 @@ const NavBar = () => {
   return (
     <nav
       style={{ position: "relative", zIndex: 99 }}
-      className="navbar navbar-expand-lg navbar-dark vh-10"
+      className="navbar navbar-expand-lg navbar-dark vh-10 overflow-hidden"
     >
       <div className="container-fluid">
         <img

@@ -6,7 +6,7 @@ import "./styles/styles.scss";
 const PortfolioApp = () => {
   return (
     <>
-      <div className="container-fluid h-100 vh-100 vw-100">
+      <div className="container-fluid vh-100 vw-100">
         <AppRouter />
       </div>
     </>

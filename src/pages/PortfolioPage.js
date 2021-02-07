@@ -14,7 +14,6 @@ const PortfolioPage = () => {
     setCounter(selectedProject);
   };
 
-
   return (
     <div
       className="row
@@ -34,7 +33,6 @@ const PortfolioPage = () => {
           handlePreviousProject={handlePreviousProject}
         />
       </div>
-      
     </div>
   );
 };
