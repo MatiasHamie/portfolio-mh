@@ -4,8 +4,9 @@ import me from "../assets/img/yo.jpg";
 const AboutPage = () => {
   return (
     <div
-      className="row aboutme-container d-flex flex-wrap
-      align-items-center"
+      className="row aboutme-container
+     d-flex flex-md-row flex-column flex-wrap 
+     align-items-center justify-content-center"
     >
       <div className="col image-container  text-center">
         <img src={me} alt="Foto mia" />
@@ -18,19 +19,25 @@ const AboutPage = () => {
         </h1>
         <div className="line"></div>
         <div className="subtitle pt-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus,
-          veniam quasi ad atque vero veritatis harum ipsum sequi corporis fugiat
-          perspiciatis sed quod tempore soluta odit provident adipisci id
-          voluptatum et expedita. Odio, repudiandae consectetur maiores minima
-          sunt corporis, id dolorem asperiores, beatae optio reprehenderit
-          libero similique dolore dolor.
+          <h2>
+            La relación amor - odio que tengo con la programación, me motiva a
+            seguir aprendiendo para poder afrontar los desafios que se me
+            presentan
+          </h2>
+          <br />
+
+          <h2>
+            Me identifico como un programador front-end, me gusta poder ver
+            materializado en una interface lo que codeo.
+          </h2>
+          <br />
         </div>
 
         <div className="redes d-flex flex-row justify-content-center align-items-center">
           <h2 className="github">
             <a href="https://github.com/MatiasHamie/">
-            <i className="fab fa-github py-5 mx-4"></i>
-            Github
+              <i className="fab fa-github py-5 mx-4"></i>
+              Github
             </a>
           </h2>
           <h2 className="linkedin mx-5">

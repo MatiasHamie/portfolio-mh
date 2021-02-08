@@ -60,3 +60,33 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .aboutme-container {
+    margin-top: 2rem !important;
+
+    .image-container {
+      margin-bottom: 3rem !important;
+    }
+
+    .about_title {
+      font-size: 2.8rem !important;
+      text-align: center;
+    }
+
+    .line {
+      margin: auto !important;
+    }
+
+    .subtitle {
+      font-size: 1.8rem !important;
+    }
+
+    .redes h2 {
+      font-size: 2rem !important;
+      .fab {
+        transform: scale(1.8);
+      }
+    }
+  }
+}
