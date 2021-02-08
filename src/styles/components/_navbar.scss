@@ -1,5 +1,6 @@
 .navbar {
-  height: 10vh;
+  min-height: 10vh;
+  background-color: black;
   .navbar-brand {
     transition: all .3s ease;
     &:hover {
@@ -46,15 +47,14 @@
   }
   .navbar-toggler {
     background-color: $amarillo;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 50%;
   }
 
   .hamburger {
-    // background-color: white;
-    // padding: 1rem;
     color: black;
     transform: scale(1.5);
+    padding: 1rem;
   }
 }
 
