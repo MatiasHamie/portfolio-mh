@@ -1,5 +1,5 @@
 import React from "react";
-import { me } from "../assets/img/yo.jpg";
+import fotoMia from "../assets/img/yo.png";
 
 const AboutPage = () => {
   return (
@@ -9,7 +9,7 @@ const AboutPage = () => {
      align-items-center justify-content-center"
     >
       <div className="col image-container  text-center">
-        <img src={me} alt="Foto mia" />
+        <img src={require(fotoMia)} alt="Foto mia" />
       </div>
 
       <div className="col about-description">
