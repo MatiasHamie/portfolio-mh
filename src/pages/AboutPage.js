@@ -9,7 +9,7 @@ const AboutPage = () => {
      align-items-center justify-content-center"
     >
       <div className="col image-container  text-center">
-        <img src={require(fotoMia)} alt="Foto mia" />
+        <img src={fotoMia} alt="Foto mia" />
       </div>
 
       <div className="col about-description">
