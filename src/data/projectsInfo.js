@@ -11,6 +11,7 @@ export const projects = [
     desc:
       "Demo de un portafolio para un equipo de fotografos / camarografos (Concept)",
     link: "https://hardcore-edison-c04c7b.netlify.app",
+    github: "https://github.com/MatiasHamie/portfolio-demo-capture-ph",
   },
   {
     id: 1,
@@ -19,6 +20,7 @@ export const projects = [
     desc:
       "Aplicación que permite elegir el tempo, sonidos y formar un compas con sonidos segun se desee (No valido vista mobile)",
     link: "https://zealous-shaw-7771bf.netlify.app",
+    github: "https://github.com/MatiasHamie/beatmaker-demo",
   },
   {
     id: 2,
@@ -26,6 +28,7 @@ export const projects = [
     title: "Waves (React JS)",
     desc: "Reproductor musical con biblioteca.",
     link: "https://hardcore-lamport-36a41e.netlify.app",
+    github: "https://github.com/MatiasHamie/demo-player",
   },
   {
     id: 3,
@@ -33,5 +36,6 @@ export const projects = [
     title: "Portfolio Demo (HTML y CSS)",
     desc: "Demostración de la pagina HOME de una landing page",
     link: "https://dreamy-nobel-00c827.netlify.app",
+    github: "https://github.com/MatiasHamie/portfolio-design-demo-EJ",
   },
 ];
