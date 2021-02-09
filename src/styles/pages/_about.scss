@@ -37,10 +37,15 @@
     }
 
     .subtitle {
-      letter-spacing: 0.3rem;
-      font-size: 2rem;
-      font-weight: 300;
-      line-height: 3rem;
+      letter-spacing: 0.4rem;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      width: 85%;
+
+      h2{
+        font-weight: 100;
+        line-height: 3rem;
+      }
     }
 
     .redes h2 {
