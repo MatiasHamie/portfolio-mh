@@ -18,8 +18,7 @@ const PortfolioPage = () => {
     <div
       className="row
        portfolio-container
-        d-flex flex-wrap flex-row justify-content-center align-items-center 
-        overflow-hidden"
+        d-flex flex-wrap flex-row justify-content-center align-items-center "
     >
       <div className="portfolio-description col text-center">
         <h1 className="portfolio_title ">Portafolio</h1>

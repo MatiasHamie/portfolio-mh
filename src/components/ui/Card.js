@@ -4,6 +4,7 @@ const Card = ({
   image,
   title,
   desc,
+  link,
   handleNextProject,
   handlePreviousProject,
 }) => {
@@ -45,8 +46,10 @@ const Card = ({
             Ver codigo fuente
           </h2>
           <h2 className="card-subtitle card-github">
-            <i className="fas fa-globe-americas mx-4"></i>
-            Demostración
+            <a href={link}>
+              <i className="fas fa-globe-americas mx-4"></i>
+              Demostración
+            </a>
           </h2>
         </div>
       </div>

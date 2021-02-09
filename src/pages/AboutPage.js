@@ -20,19 +20,27 @@ const AboutPage = () => {
         <div className="line"></div>
         <div className="subtitle pt-5">
           <h2>
-            Tengo 30 años y <b>soy técnico electromecánico especializado en
-            automatización industrial</b>, una profesión que me gusta desde que soy
-            adolescente y por eso dediqué mi carrera laboral a este rubro en el
-            que ya <b>tengo más de 10 años de experiencia</b>.
+            Tengo 30 años y{" "}
+            <b>
+              soy técnico electromecánico especializado en automatización
+              industrial
+            </b>
+            , una profesión que me gusta desde que soy adolescente y por eso
+            dediqué mi carrera laboral a este rubro en el que ya{" "}
+            <b>tengo más de 10 años de experiencia</b>.
           </h2>
           <br />
 
           <h2>
-            Paralelamente trabajé mucho de lo mío, estudié inglés,
-            música y hasta fui DJ, pero en el <b>2019 descubrí que la programacion me
-            apasionaba mucho más</b>. Ese mismo año empecé a estudiar en la Universidad
-            Tecnológica Nacional y al poco tiempo de arrancar ya sabía cuál era
-            <b>mi objetivo: convertirme en programador y trabajar duro para serlo.</b>
+            Trabajé mucho de lo mío y paralelamente estudié inglés, música y
+            hasta fui DJ, pero en el{" "}
+            <b>2019 descubrí que la programación me apasionaba mucho más</b>.
+            Ese mismo año empecé a estudiar en la Universidad Tecnológica
+            Nacional y al poco tiempo de arrancar ya sabía cuál era{" "}
+            <b>
+              mi objetivo: convertirme en programador y trabajar duro para
+              serlo.
+            </b>
           </h2>
           <br />
 

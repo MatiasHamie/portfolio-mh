@@ -3,7 +3,7 @@
   background-size: cover;
   background-color: transparent;
   color: white;
-  height: 90vh;
+  min-height: 90vh;
   width: 100vw;
   // overflow-y: auto;
 
@@ -19,7 +19,7 @@
     .portfolio_title::first-letter {
       color: $amarillo;
       font-weight: bolder;
-      text-shadow: 0 0 .8rem $amarillo-shadow !important;
+      text-shadow: 0 0 0.8rem $amarillo-shadow !important;
     }
   }
 
@@ -63,7 +63,6 @@
               border-radius: 50%;
               box-shadow: 0 0 0.6rem $amarillo-shadow;
             }
-            
           }
         }
 
@@ -80,28 +79,32 @@
       .card-body {
         margin-left: 3rem;
         .card-title {
-          font-size: 3rem;
+          font-size: 3rem !important;
           text-shadow: 0 0 0.3rem whitesmoke;
         }
         .card-description {
-          font-size: 1.8rem;
+          font-size: 1.8rem !important;
           font-weight: lighter;
           text-shadow: 0 0 0.2rem whitesmoke;
         }
         .card-subtitle {
-          font-size: 1.8rem;
+          font-size: 1.8rem !important;
           font-weight: 300;
           color: $amarillo;
           text-shadow: 0 0 0.2rem whitesmoke;
 
-          i{
+          i {
             font-size: 2.5rem;
-
           }
-          &:hover{
+          &:hover {
             text-shadow: 0 0 1rem $amarillo-shadow;
             cursor: pointer;
           }
+        }
+
+        a{
+          text-decoration: none;
+          color: $amarillo;
         }
       }
     }
@@ -154,55 +157,5 @@
   }
   .button-container {
     flex-direction: row !important;
-  }
-}
-
-@media screen and (min-width: 1700px) {
-  .portfolio_title {
-    font-size: 5rem !important;
-  }
-
-  .portfolio_subtitle {
-    font-size: 3rem !important;
-  }
-
-  .card-body {
-    .card-title {
-      font-size: 5rem !important;
-    }
-    .card-description {
-      font-size: 3rem !important;
-    }
-  }
-
-  button {
-    font-size: 6rem !important;
-  }
-
-  img {
-    width: 45% !important;
-  }
-}
-
-@media screen and (min-width: 2400px) {
-  .portfolio_title {
-    font-size: 14rem !important;
-  }
-
-  .portfolio_subtitle {
-    font-size: 8rem !important;
-  }
-
-  .card-body {
-    .card-title {
-      font-size: 10rem !important;
-    }
-    .card-description {
-      font-size: 7rem !important;
-    }
-  }
-
-  button {
-    font-size: 12rem !important;
   }
 }
