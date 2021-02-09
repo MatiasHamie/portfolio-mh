@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Card = ({
   image,
@@ -9,6 +9,10 @@ const Card = ({
   handlePreviousProject,
 }) => {
   const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    setToggle(false);
+  }, [])
 
   const handleToggle = () => {
     setToggle(!toggle);

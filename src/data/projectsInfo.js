@@ -17,7 +17,7 @@ export const projects = [
     image: Beatmaker,
     title: "Beatmaker (Vainilla Javascript)",
     desc:
-      "Aplicación que permite elegir el tempo, sonidos y formar un compas con sonidos segun se desee",
+      "Aplicación que permite elegir el tempo, sonidos y formar un compas con sonidos segun se desee (No valido vista mobile)",
     link: "https://zealous-shaw-7771bf.netlify.app",
   },
   {
